@@ -9,13 +9,8 @@
     "check": "inu check --no-typecheck"
   },
   "devDependencies": {
-    "@inugram/cli": "^44.0.0",
-    "@inugram/plugin-types": "^44.0.0",
+    "@inugram/cli": "^45.0.0",
+    "@inugram/plugin-types": "^45.0.0",
     "typescript": "^5.6.0"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild"
-    ]
   }
 }
