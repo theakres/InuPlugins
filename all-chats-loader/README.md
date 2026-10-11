@@ -2,6 +2,10 @@
 
 Догружает полный список диалогов. Порт плагина All Chats Loader для exteraGram от [@nufxa](https://t.me/nufxa).
 
+## Скачать
+
+Готовый файл плагина можно скачать в [Releases](https://github.com/theakres/InuPlugins/releases/tag/all-chats-loader).
+
 ## Как работает
 
 Плагин запрашивает `messages.getDialogs` пакетами по 100 диалогов и передаёт каждый ответ штатному обработчику приложения (`MessagesController.processLoadedDialogs`), чтобы диалоги попали в локальную БД. После завершения показывает, как изменился размер кэша диалогов.
