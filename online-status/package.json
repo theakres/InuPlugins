@@ -1,0 +1,16 @@
+{
+  "name": "online-status",
+  "version": "1.0.0",
+  "description": "Inugram plugin that shows an online indicator on avatars in group chats",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "inu build",
+    "check": "inu check --no-typecheck"
+  },
+  "devDependencies": {
+    "@inugram/cli": "^45.0.0",
+    "@inugram/plugin-types": "^45.0.0",
+    "typescript": "^5.6.0"
+  }
+}
