@@ -3,7 +3,7 @@ export default defineConfig({
   outDir: process.env.INU_OUT ?? "dist",
   plugins: {
     "all-chats-loader": {
-      entry: "src/all-chats-loader/index.ts",
+      entry: "src/index.ts",
       manifest: {
         name: "All Chats Loader",
         id: "all_chats_loader",
