@@ -1,0 +1,19 @@
+{
+  "name": "all-chats-loader",
+  "version": "1.0.0",
+  "description": "Inugram plugin that loads the full list of dialogs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "inu build",
+    "check": "inu check --no-typecheck"
+  },
+  "devDependencies": {
+    "@inugram/cli": "^44.0.0",
+    "@inugram/plugin-types": "^44.0.0",
+    "typescript": "^5.6.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  }
+}
